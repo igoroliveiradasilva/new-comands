@@ -9,27 +9,5 @@ cd +nome da pasta (abre pasta desejada)
 open . (mostra as pastas de modo gráfico)
 ```
 
-## github: como criar um projeto
-- entro na minha conta do git [aqui](https://github.com/igoroliveiradasilva)
-- vou em "repositores"e clico no ícone ![=](image.png)
-- adiciono nome e clico no botão verde na parte inferior da página "Create repository"
-- copio a url e adiciono no terminal deste jeito:
-
-```bash
-cd Documents
-\\ veja se está em "Documents" usando ls //
-git clone +url copiada
-```
-- após isso, a url será copiada para para a pasta "Documents"
-- abra a pasta "Documents" pelo terminal e após isso abra a pasta com o nome do seu git criado 
-- agora use o código:
-
-```bash
-code .
-```
-- o app Visual Studio Code será aberto e criará este novo git
-- agora crie seu projeto
-
-
 
 
