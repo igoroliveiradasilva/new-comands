@@ -1,14 +1,3 @@
-# comandos terminal:
-
-## mexer com pastas:
-```bash
-cd (abre as pastas)
-ls (mostra onde estou)
-cd ..  (fecha as pastas)
-cd +nome da pasta (abre pasta desejada)
-open . (mostra as pastas de modo gráfico)
-``` 
-
 ## github: como criar um projeto
 - entro na minha conta do git [aqui](https://github.com/igoroliveiradasilva)
 - vou em "repositores"e clico no ícone ![=](image.png)
