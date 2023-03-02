@@ -1,20 +1,34 @@
-## github: como criar um projeto
-- entro na minha conta do git [aqui](https://github.com/igoroliveiradasilva)
-- vou em "repositores"e clico no ícone ![=](image.png)
-- adiciono nome e clico no botão verde na parte inferior da página "Create repository"
-- copio a url e adiciono no terminal deste jeito:
-
+## GitHub: como criar um projeto pelo iTerm 3 
+- entre no iTerm 3 e em seguida entre na pasta "Documents":
 ```bash
 cd Documents
-\\ veja se está em "Documents" usando ls //
-git clone +url copiada
 ```
-- após isso, a url será copiada para para a pasta "Documents"
-- abra a pasta "Documents" pelo terminal e após isso abra a pasta com o nome do seu git criado 
-- agora use o código:
-
+- crio uma nova pasta para meu repository:
 ```bash
-code .
+mkdir 'NomeDaPastaCriada'
 ```
-- o app Visual Studio Code será aberto e criará este novo git
-- agora crie seu projeto
+- vá ate a pasta criada com o comando:
+```bash
+cd 'NomeDaPastaCriada'
+```
+- inicie um novo repository git usando:
+```bash
+git init
+```
+- entre na página inicial do seu GitHub e clique em "New Repository";
+- preeencha um nome para o seu repository, selecione se deseja que seu repository seja privado ou público e clique em "Create repositoy";
+- copie a URL do seu repository e adicione no iTerm 3 da seguinte forma:
+```bash
+git remote add origin 'URLRepositoryGit'
+```
+## commit
+
+- adicione arquivos ao seu repository git e faça o commit com o comando:
+```bash
+git add .
+git commit -m "primeiro commit"
+```
+- envie seus arquivos para o repository remoto no GitHub usando o comando:
+```bash
+git push -u origin master
+```
