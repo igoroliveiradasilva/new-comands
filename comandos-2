@@ -3,7 +3,7 @@
 ```bash
 cd Documents
 ```
-- crio uma nova pasta para meu repository:
+- crie uma nova pasta para meu repository:
 ```bash
 mkdir 'NomeDaPastaCriada'
 ```
