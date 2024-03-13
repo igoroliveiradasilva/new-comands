@@ -16,10 +16,14 @@ cd 'NomeDaPastaCriada'
 git init
 ```
 - entre na página inicial do seu GitHub e clique em "New Repository";
-- preeencha um nome para o seu repository, selecione se deseja que seu repository seja privado ou público e clique em "Create repositoy";
+- preencha um nome para o seu repository, selecione se deseja que seu repository seja privado ou público e clique em "Create repositoy";
 - copie a URL do seu repository e adicione no iTerm 3 da seguinte forma:
 ```bash
 git remote add origin 'URLRepositoryGit'
+```
+Agora, para abrir o VS Code e começar a criar seu projeto, digite:
+```bash
+open .
 ```
 ## commit
 
