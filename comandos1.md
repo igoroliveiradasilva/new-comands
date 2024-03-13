@@ -1,4 +1,4 @@
-# comandos terminal:
+# comandos terminal (iTerm3):
 
 ## mexer com pastas:
 ```bash
