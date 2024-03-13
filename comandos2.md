@@ -7,7 +7,7 @@ cd Documents
 ```bash
 mkdir 'NomeDaPastaCriada'
 ```
-- vá ate a pasta criada com o comando:
+- vá até a pasta criada com o comando:
 ```bash
 cd 'NomeDaPastaCriada'
 ```
